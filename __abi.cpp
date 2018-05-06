@@ -84,7 +84,7 @@ namespace __abi
     {
         __platform::__throw_exception(e);
     }
-    bool __uncaught_exception()
+    bool __uncaught_exception() noexcept
     {
         return false;
     }
